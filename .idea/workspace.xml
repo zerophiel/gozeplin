@@ -44,4 +44,14 @@
     <integration-enabled>true</integration-enabled>
     <proxy>direct</proxy>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="120" y="164" key="FileDocumentManager.FileCacheConflict" timestamp="1583404541336">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="120" y="164" key="FileDocumentManager.FileCacheConflict/0.0.1440.900@0.0.1440.900" timestamp="1583404541336" />
+    <state x="431" y="173" key="MultipleFileMergeDialog" timestamp="1583404512108">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="431" y="173" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1583404512108" />
+  </component>
 </project>

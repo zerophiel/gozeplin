@@ -1,4 +1,4 @@
-module gozeplin
+module github.com/zerophiel/gozeplin
 
 go 1.13
 
