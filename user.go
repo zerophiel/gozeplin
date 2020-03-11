@@ -35,3 +35,15 @@ func GetOrganizationUsers (token string, organizationId string) (*UserDetails,er
 	err = json.Unmarshal(resp.Body(), &response)
 	return &response, err
 }
+
+func RemoveOrganizationUser (token string, organizationId string, userId string) error {
+	url := URI + "/organizations/"+ organizationId + "/members/"+userId
+	client := resty.New()
+	_, err := client.R().
+		SetHeader("Content-Type", "application/json").
+		SetHeader("zeplin-token", token).Delete(url)
+	if err != nil {
+		return err
+	}
+	return nil
+}
