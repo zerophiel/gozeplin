@@ -1,5 +1,5 @@
 # gozeplin
-A Go Client Library For Zepplin.io
+A Go Client Library For Zeplin.io
 
 **GetLoginToken (username, password)**
 Used for getting token for further request to Zepplin.io
