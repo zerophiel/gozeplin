@@ -23,7 +23,9 @@ type UserDetails struct {
 }
 type AlienDetails struct {
 	ID      string `json:"_id"`
-	Wildlings []User `json:"wildlings"`
+	Wildlings []struct{
+		User	User `json:"user"`
+	} `json:"wildlings"`
 }
 
 func GetOrganizationUsers (token string, organizationId string) (*UserDetails,error){
